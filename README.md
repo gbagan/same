@@ -1,1 +1,1 @@
-gbagan.github.io/same
+https://gbagan.github.io/same
