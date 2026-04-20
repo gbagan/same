@@ -26,6 +26,7 @@
 
   function newGame(config: Config) {
     board = new Board(20, 10, config.colorCount);
+    score = 0;
     dialogEl.close();
   }
 
