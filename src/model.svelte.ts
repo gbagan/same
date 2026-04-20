@@ -155,7 +155,7 @@ export class Board {
       for (let delta = 0; delta < this.#grid.length; delta += this.#width) {
         this.#grid[left+delta].color = this.#grid[current+delta].color;
         this.#grid[left+delta].id = this.#grid[current+delta].id;
-        this.#grid[left+delta].slide = slide;  
+        this.#grid[left+delta].slide = slide;
         this.#grid[current+delta].color = -1;
       }
       left++;
